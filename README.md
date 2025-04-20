@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio site, uniquely designed in the **style of Google Docs**! This project showcases a multi-page personal website with a clean, document-like aesthetic, interactive features, and even a mini-game. It’s built using **HTML**, **CSS**, **JavaScript**, and light **Bootstrap**, and hosted via **GitHub Pages**.
 
-🔗 **[Live Walkthrough](https://your-username.github.io/your-repo/walkthrough.html)**  
+🔗 **[Walkthrough project](https://github.com/EnAnsari/homepage-CS50/wiki)**  
 
 ---
 
