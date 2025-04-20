@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>more about me</title>
+    </head>
+<body>
+  <div class="sidebar">
+    <h2>my Home Page</h2>
+    <a href="index.html">Resume</a>
+    <a href="page2.html" class="active">More about me</a>
+    <a href="page3.html">About CS50x</a>
+    <a href="page4.html">send me message</a>
+  </div>
+    <!-- Content -->
+    <div class="content">
+        <div class="doc-style">
+          <h2 class="text-center">My Interests & Activities</h2>
+  
+          <div class="about-me-section">
+            <p>
+                Outside of my digital academic world, life continues to flow.
+                I have a deep passion for reading philosophical books and novels.
+                I believe literature possesses a unique beauty that you can't find
+                anywhere else. My interest in philosophy, like many other enthusiasts,
+                began with a few simple yet unanswered questions. One thing I've
+                come to realize is that, alongside the undeniable impact of technological
+                advancement on modern life, the progress of philosophy and the humanities
+                has served as a foundational growth platform for technology. Without it,
+                humanity might still be stuck in a primitive, stagnant state.
+            </p>
+            <p>
+                I’ve had a strong passion for problem-solving since childhood. From the
+                very beginning, my favorite subject in elementary school was math, and
+                this interest led me to choose a math major in high school. However,
+                when I entered university, I realized that mathematics was merely a
+                means to satisfy my addiction to solving problems. When I discovered
+                programming, I encountered a new realm of solvable problems, and my
+                enthusiasm for tackling them grew even more, especially since these
+                challenges felt more tangible in the real world. In university, I became
+                familiar with ICPC and IOI, and my journey of problem-solving continues to this day.
+            </p>
+            <p>
+                In addition to problem-solving, another topic that fascinates me is the diversity
+                of cultures. You might find it interesting to know that right now, as you read
+                this text, many people in places far from you are living entirely different lifestyles.
+                They speak different languages, eat foods that might seem unimaginable to you, and
+                have cultures that differ from your own. Many of your values may hold different
+                meanings for them. This curiosity has fueled my passion for exploring distant lands.
+                Although this interest sparked in my childhood, my more serious steps toward this
+                journey began recently, in my final year of undergraduate studies, when I made a committed
+                decision to study English as the world's primary language. I started this journey with
+                English language learning apps, especially Duolingo, and it continues to this day. I
+                believe that if you find yourself at a crossroads in this journey or are hesitating,
+                just take the plunge and enjoy both the journey and the destination to the fullest.
+            </p>
+            <p>
+                I’d like to touch on another aspect from my childhood. As psychologists often say, all issues
+                have their roots in early experiences. Fortunately, this isn’t a problem for me. (I should
+                mention that I spent a year interacting with psychology students at university.) My passion
+                for science and cutting-edge technology has always been undeniable. Some of my favorite programs
+                and even cartoons were scientific or perhaps even science fiction. I would wake up early just
+                to catch documentaries about planets, and I always kept my general scientific knowledge at the
+                highest level possible. However, during my childhood, I struggled with a lack of resources
+                since the internet wasn’t as accessible as it is today, leading me to read the same books
+                multiple times. These experiences now serve as motivation for my interest in high-tech projects
+                and my fascination with wild scientific ideas. Perhaps this is why I find myself captivated by
+                the creativity in defining concepts when watching shows like Black Mirror or Love, Death & Robots.
+                I feel the same excitement when I see code that embodies beauty and creativity akin to that of
+                renowned masterpieces. If you share this passion, then I’d like to say, hello, my dear friend!
+            </p>
+            <p>
+                In the final section, I’d like to talk about my sports activities. As a non-physical sport,
+                I have a strong passion for chess and I’m always looking to improve my skills. Additionally,
+                I’ve been fond of cycling since childhood. I’ve always dreamed of exploring the world on a
+                bicycle, and I can honestly say I’m in love with it. Beyond that, I used to enjoy early morning
+                walks, but my motivation waned as the streets near my home became emptier. I’ve decided that if
+                I ever become independent or migrate, I’ll pick this activity back up. I also enjoy hiking,
+                which is a more intense activity than walking or running. I make it a point to conquer the
+                mountains we visit for leisure. The reward of witnessing a beautiful view at the end, along
+                with the joy of expending energy, makes it all the more appealing to me. Lastly, I want to mention
+                water sports. Although I’m not a professional swimmer, I love being in the water. Can you feel the
+                tranquility that comes from weightlessness in water? I should also note that I haven’t tried many
+                sports yet. As a saying goes, maybe we could even win an Olympic medal in a few of them :D
+            </p>
+            <p>Thank you for taking the time to read this.<br>With warm regards, Rahmat</p>
+          </div>
+  
+            <!-- Emoji Interaction Section -->
+            <div class="emoji-feedback text-center mt-5">
+                <h4>React with an Emoji 👇</h4>
+                <div class="emoji-buttons">
+                <span class="emoji" onclick="toggleComment('happy')">😊</span>
+                <span class="emoji" onclick="toggleComment('angry')">😡</span>
+                <span class="emoji" onclick="toggleComment('crying')">😭</span>
+                <span class="emoji" onclick="toggleComment('laughing')">😂</span>
+                <span class="emoji" onclick="toggleComment('poker')">😐</span>
+                <span class="emoji" onclick="toggleComment('evil')">😈</span>
+                </div>
+                <div id="emojiComments" class="mt-3"></div>
+            </div>  
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+Overall Structure & Design Approach
+This project was built as a multi-page personal website using plain HTML, CSS, and JavaScript — without relying on heavy frameworks like React. Each page was styled to mimic the Google Docs aesthetic, which typically includes:
+A white paper-like centered layout,
+Clean typography,
+Subtle shadows and borders,
+And left-side navigation for page switching.
+
+To keep the project modular and maintainable, we used:
+Separate HTML files for each page (index.html, page2.html, page3.html, page4.html)
+A shared CSS file (style.css) for consistent styling,
+And a shared JavaScript file (script.js) for interactivity across all pages.
+
+Styling Techniques
+Google Docs-like Layout: We centered the content with a fixed-width "paper" container and used subtle borders and shadows to simulate the feel of a document editor.
+Bootstrap: Light usage of Bootstrap was integrated for layout and button styling, improving responsiveness and saving development time.
+Responsive Design: Pages were styled to be functional and visually coherent on both desktop and mobile devices, especially important for features like the Snake game.
+
+JavaScript Features
+Several interactive components were built purely in vanilla JavaScript to reduce dependencies:
+
+1.Greeting System:
+Personalized greeting with input, and a dynamic “close” button.
+Used event listeners to display and hide custom messages.
+
+2. Emoji Reactions:
+Interactive emoji icons trigger toggleable messages.
+Only one message shows at a time, and clicking the same emoji again hides it.
+
+3. Random Word Coloring:
+On the CS50 page, words in content paragraphs are randomly colored with dark shades to ensure readability against a white background.
+Applied selectively only to regular text, not headers or questions.
+
+4. Expandable Q&A (Accordion):
+A simple sliding toggle effect was implemented for the Q&A section using minimal JavaScript, giving a FAQ-like feel.
+
+5. Snake Game:
+Created a functional Snake game playable on mobile with on-screen controls.
+Game only ends when the snake collides with itself.
+Walls wrap around for smoother gameplay.
+On reaching 10 points, form submission is unlocked.
+
+Game & Form Integration
+The “Contact Me” page combined creativity with functionality:
+We used Formspree to handle email submissions without server-side code.
+But instead of sending the message immediately, users must win a simple game (Snake).
+Only after achieving a score of 10 does the submit button become enabled, adding a unique, gamified twist to the contact form.
+
+Hosting
+The site is designed to be deployed directly on GitHub Pages, making it completely free and easy to update by pushing changes to the repository.
+
+If you ever want to take this further, I can help you:
+Add animations with libraries like GSAP,
+Convert this into a PWA (Progressive Web App),
+Or connect it to a backend for full-stack features.

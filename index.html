@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>about Me</title>
+    </head>
+<body>
+  <div class="sidebar">
+    <h2>my Home Page</h2>
+    <a href="index.html" class="active">Resume</a>
+    <a href="page2.html">More about me</a>
+    <a href="page3.html">About CS50x</a>
+    <a href="page4.html">send me message</a>
+  </div>
+  <div class="content">
+    <div class="doc-style text-center">
+      <!-- Profile Image -->
+      <img src="me.jpg" alt="My Photo" class="profile-pic">
+
+      <!-- Greeting Form -->
+      <div class="greeting-box">
+        <input type="text" id="nameInput" class="form-control d-inline-block w-50" placeholder="Enter your name">
+        <button onclick="greetUser()" class="btn btn-primary mt-2">Say Hi</button>
+        <div id="greetingMessage" class="mt-3 text-success fw-bold"></div>
+      </div>
+
+      <!-- Resume Section -->
+      <div class="resume-section text-start">
+        <h3>Personal Info</h3>
+        <p><strong>Name:</strong> Rahmat Ansari</p>
+        <p><strong>Email:</strong> en.r.ansari@gmail.com</p>
+        <p><strong>Location:</strong> Mashhad, Iran</p>
+
+        <!-- About Me Section -->
+        <div class="about-me-section">
+          <h3>About Me</h3>
+          <p>
+            Hello! You can find my general details above and below this section.
+            I’m a highly motivated student eager to learn more and enjoy tackling
+            projects that develop tools to streamline progress and enhance comfort.
+            I’m always on the lookout for opportunities to collaborate on cutting-edge
+            projects and papers, as well as to work with teams, companies, and
+            startups that share similar goals. Currently, I’m focused on server-side
+            programming with Node.js and I’m also interested in learning and
+            collaborating in the field of artificial intelligence
+          </p>
+        </div>
+
+        <h3>Education</h3>
+        <ul>
+          <li>B.Sc. in Computer Engineering - Hakim Sabzevari University (2020 - 2024)</li>
+        </ul>
+
+        <h3>Work Experience</h3>
+        <ul>
+          <li>Image Processing Engineer @ Bonyad Meli Nokhbegan [remote] (Jul 2024 - Nov 2024)</li>
+          <li>Backend Dveloper @ Part Software Group [intership] (Jul 2024 - Aug 2024)</li>
+          <li>Backend Developer @ Professor DNA [contract] (Nov 2023 - Mar 2024)</li>
+          <li>Software Developer @ Bina Pardaz [intership] (Jun 2023 - Sep 2023)</li>
+        </ul>
+
+        <h3>Skills</h3>
+        <ul>
+          <li>JavaScript, Node.js, Express, Python, Git</li>
+          <li>REST API, test writing, design patterns, Docker</li>
+          <li>C++, C, Algorithm, Data Structure</li>
+          <li>can-do attitude, Team Player Mindset, Commitment to Continuous Learning</li>
+        </ul>
+      </div>
+      <!-- Social Links Section -->
+      <div class="social-links mt-4">
+        <a href="https://www.linkedin.com/in/en-r-ansari" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/enansari" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="https://enansari.github.io" target="_blank" class="social-icon"><i class="fas fa-globe"></i></a>
+        <a href="https://t.me/enansari" target="_blank" class="social-icon"><i class="fab fa-telegram-plane"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
