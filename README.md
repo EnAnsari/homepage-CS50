@@ -2,8 +2,7 @@
 
 Welcome to my personal portfolio site, uniquely designed in the **style of Google Docs**! This project showcases a multi-page personal website with a clean, document-like aesthetic, interactive features, and even a mini-game. It’s built using **HTML**, **CSS**, **JavaScript**, and light **Bootstrap**, and hosted via **GitHub Pages**.
 
-> 🔗 **[Live Walkthrough](https://your-username.github.io/your-repo/walkthrough.html)**  
-> (Replace with the actual link to your walkthrough page)
+🔗 **[Live Walkthrough](https://your-username.github.io/your-repo/walkthrough.html)**  
 
 ---
 
@@ -43,7 +42,15 @@ All pages maintain a consistent, clean Google Docs-inspired layout with a side m
 
 ## 📷 Screenshots
 
-> You can add screenshots here to visually represent your pages
+<details>
+<summary>click here to show up</summary>
+  
+![image](https://github.com/user-attachments/assets/535ee36f-b181-40cb-b63f-99594003a7dc)
+![image](https://github.com/user-attachments/assets/bb8cbf85-37c7-4ddd-98f5-649866a9ced5)
+![image](https://github.com/user-attachments/assets/d0dc6b5e-7711-4452-8a78-d6328e2f324d)
+![image](https://github.com/user-attachments/assets/aef9a089-2190-4ed9-b1b9-cd2488d96712)
+</details>
+
 
 ---
 
@@ -61,12 +68,12 @@ All pages maintain a consistent, clean Google Docs-inspired layout with a side m
 
 This project is licensed under the **[MIT License](./LICENSE)** – feel free to use, modify, and share.
 
-
 ---
 
 ## 🙋‍♂️ Contact
 
 Feel free to connect with me on [this page +](https://enansari.github.io/homepage-CS50/page4.html).
+
 ---
 
 ## ✨ Credits
